@@ -1,16 +1,22 @@
 import Image from "next/image";
+import Link from "next/link";
 import Nav from "./Components/Nav/Nav";
 import Hero from "./Components/Hero/Hero";
-import Banner from "./Components/Banner/Banner";
-import Social from "./Components/Social/Social";
+import Gallery from "./Components/Gallery/Gallery";
+import About from "./Components/About/About";
+import Faq from "./Components/Faq/Faq";
+
 
 const Home = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="Home p-4">
+      <h1>Sample</h1>
+      <Link href="/user">User</Link>
       <Nav />
       <Hero />
-      <Banner />
-      <Social />
+      <Gallery />
+      <About />
+      <Faq />
     </main>
   );
 }
