@@ -8,7 +8,7 @@ import Test from "./Pages/Test/Test";
 
 const Home = () => {
   return (
-    <main className="Home p-4">
+    <main className="Home">
       <h1>Sample</h1>
       <Nav />
       <Hero />
