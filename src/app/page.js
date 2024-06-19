@@ -4,6 +4,7 @@ import Hero from "./Pages/Hero/Hero";
 import About from "./Pages/About/About";
 import Gallery from "./Pages/Gallery/Gallery";
 import Faq from "./Pages/Faq/Faq";
+import Test from "./Pages/Test/Test";
 
 const Home = () => {
   return (
